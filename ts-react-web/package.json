@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "parcel ./src"
+    },
+    "dependencies": {
+        "react-dom": "16.10.1",
+        "react": "16.10.1"
+    },
+    "devDependencies": {
+        "@types/react": "16.9.4",
+        "parcel": "1.12.3"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "typeRoots": ["node_modules/@types", "node_modules/json-d-ts"]
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "test"
+  ],
+  "types": ["node"]
+}
