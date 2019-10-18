@@ -1,10 +1,13 @@
 {
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
+    "files": [
+        "lib/**/!(*.spec).d.ts",
+        "lib/**/!(*.spec).js"
+    ],
     "scripts": {
         "build": "tsc",
-        "watch": "tsc --watch",
-        "esops": "esops --overwrite"
+        "watch": "tsc --watch"
     },
     "devDependencies": {
         "typescript": "3.6.4",
@@ -14,7 +17,6 @@
         "eslint-plugin-react": "7.16.0",
         "prettier": "1.18.2",
         "eslint-config-prettier": "6.4.0",
-        "eslint-plugin-prettier": "3.1.1",
-        "esops": "3.4.0"
+        "eslint-plugin-prettier": "3.1.1"
     }
 }
