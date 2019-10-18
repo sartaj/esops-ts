@@ -3,6 +3,6 @@
         "prepare": "esops"
     },
     "devDependencies": {
-        "esops": "3.2.0"
+        "esops": "3.4.0"
     }
 }
