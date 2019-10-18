@@ -1,1 +1,5 @@
-["../ts-root", "./package.json --merge"]
+[
+    "../ts-root", 
+    "../ts-react", 
+    "./package.json --merge"
+]

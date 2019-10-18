@@ -1,0 +1,5 @@
+{
+    "devDependencies": {
+        "react-native-monorepo-helper": "^0.2.6"
+    }
+}

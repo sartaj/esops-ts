@@ -1,1 +1,0 @@
-The infrastructure here is designed to encourage keeping starting files in the root of the project. This is more realistic with minimal root files. `index.ts` starts at the root, and gives a code reader the opportunity to provide guidance to read code.

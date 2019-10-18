@@ -1,0 +1,4 @@
+[
+    "./metro.config.js",
+    "./package.json --merge"
+]

@@ -1,0 +1,5 @@
+[
+    "./.markdownlint.json --merge",
+    "./cSpell.json --merge",
+    "./package.json --merge"
+]

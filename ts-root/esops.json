@@ -1,1 +1,9 @@
-["./stack"]
+[
+    "../js-root",
+    "./package.json --merge --publish",
+    "./tsconfig.json --merge",
+    "./.gitignore --merge",
+    "./.eslintrc --merge",
+    "./.prettierrc --merge",
+    "./.vscode/settings.json --merge"
+]

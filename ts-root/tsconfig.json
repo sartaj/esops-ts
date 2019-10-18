@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "noEmit": false,
+        "outDir": "lib",
+        "declaration": true,
+        "moduleResolution": "node",
+        "allowJs": false,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "lib": ["esnext"]
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["**/node_modules/**/*"]
+}

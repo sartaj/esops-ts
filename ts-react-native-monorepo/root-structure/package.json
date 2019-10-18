@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "preinstall": "wsrun esops --exclude-missing",
+    "watch": "wsrun watch --exclude-missing",
+    "build": "wsrun build --exclude-missing",
+    "ios": "wsrun ios --exclude-missing",
+    "android": "wsrun android --exclude-missing",
+    "web": "wsrun web --exclude-missing",
+    "start": "wsrun start --exclude-missing"
+  },
+  "private": true,
+  "devDependencies": {
+    "@react-native-community/cli": "^2.9.0",
+    "esops": "3.4.0",
+    "wsrun": "5.0.2"
+  },
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-typescript-transformer"
+    ]
+  }
+}

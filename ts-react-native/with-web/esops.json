@@ -1,0 +1,7 @@
+[
+    "../../ts-root",
+    "../main",
+    "../../ts-react-web",
+    "./package.json --merge",
+    "./.babelrc --merge"
+]

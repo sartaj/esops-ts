@@ -1,0 +1,6 @@
+[
+    "../../ts-root",
+    "../../ts-react-module",
+    "./package.json --merge",
+    "../tsconfig.json -o ./tsconfig.json --merge"
+]

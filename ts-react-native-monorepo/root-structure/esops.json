@@ -1,0 +1,6 @@
+[
+    "../ts-root/.vscode/settings.json -o ./vscode/settings.json --merge",
+    "../ts-root/.vscode/recommended.json -o ./vscode/recommended.json --merge",
+    "./.gitignore --merge",
+    "./package.json --publish --merge"
+]

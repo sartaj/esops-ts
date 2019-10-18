@@ -1,0 +1,5 @@
+[
+    "../../ts-root",
+    "../package.peer.json -o ./package.json --merge",
+    "../tsconfig.json --merge"
+]

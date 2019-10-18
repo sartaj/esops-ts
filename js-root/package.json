@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "prepare": "esops"
+    },
+    "devDependencies": {
+        "esops": "3.2.0"
+    }
+}
