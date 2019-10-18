@@ -1,6 +1,6 @@
 [
     "../js-root",
-    "./package.json --merge --publish",
+    "./package.json --merge",
     "./tsconfig.json --merge",
     "./.gitignore --merge",
     "./.eslintrc --merge",
