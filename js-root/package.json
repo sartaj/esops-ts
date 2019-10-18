@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "prepare": "esops"
+        "prepare": "esops --overwrite"
     },
     "devDependencies": {
         "esops": "3.5.0"
