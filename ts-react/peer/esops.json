@@ -1,5 +1,6 @@
 [
     "../../ts-root",
     "../package.peer.json -o ./package.json --merge",
-    "../tsconfig.json --merge"
+    "../tsconfig.json --merge",
+    "../.gitignore -o ./.gitignore --merge"
 ]

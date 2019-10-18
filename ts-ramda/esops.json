@@ -1,1 +1,1 @@
-["../ts-root", "./package.json --merge"]
+["./package.json --merge"]

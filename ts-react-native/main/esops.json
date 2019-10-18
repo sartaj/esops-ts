@@ -2,5 +2,6 @@
     "../../ts-root",
     "../../ts-react-module",
     "./package.json --merge",
+    "./.gitignore --merge",
     "../tsconfig.json -o ./tsconfig.json --merge"
 ]

@@ -1,0 +1,14 @@
+# Created by https://www.gitignore.io/api/react
+# Edit at https://www.gitignore.io/?templates=react
+
+### react ###
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+psd
+thumb
+sketch
+
+# End of https://www.gitignore.io/api/react
