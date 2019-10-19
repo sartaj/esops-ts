@@ -1,0 +1,4 @@
+[
+    "github:sartaj/ts-node#2019-10-19",
+    "./package.extend.json -o ./package.json --merge"
+]
